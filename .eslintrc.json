@@ -1,9 +1,12 @@
 {
+  "parser": "babel-eslint",
   "extends": [
     "next",
+    "next/babel",
     "next/core-web-vitals"
   ],
   "rules": {
-    "@next/next/no-img-element": "off"
+    "@next/next/no-img-element": "off",
+    "no-unused-expressions": "off"
   }
 }
